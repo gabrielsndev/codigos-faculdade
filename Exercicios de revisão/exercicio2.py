@@ -10,6 +10,10 @@ cupom = int(valor // 30)
 resto = valor % 30 
 prox_cupom = 30 - resto
 
-print(f'Você receberá {cupom} cupons')
+if cupom == 0:
+   print('Sem cupons!')
+else:
+    print(f'Você receberá {cupom} cupons')
+
 print(f'R$ {resto} de saldo')
 print(f'R$ {prox_cupom:.2f} para novo cupom')
