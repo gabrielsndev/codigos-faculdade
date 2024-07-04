@@ -14,7 +14,7 @@ total = 0
 while qtd_cupons > 0:
     compra = float(input('Digite o valor da compra: '))
     cupom = int(compra // 30)
-    qtd_cupons = qtd_cupons -cupom
+    qtd_cupons -= cupom
 
     if qtd_cupons >= cupom:
         clientes_satis = clientes_satis + 1 
