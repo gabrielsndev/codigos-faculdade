@@ -25,27 +25,32 @@ resultado = 0
 
 if perg1 == 'S':
     resultado += 1
+print(resultado)
 
 if perg2 == 'S':
     resultado += 1
+print(resultado)
 
 if perg3 == 'S':
     resultado += 1
+print(resultado)
 
 if perg4 == 'S':
     resultado += 1
+print(resultado)
 
 if perg5 == 'S':
     resultado += 1
+print(resultado)
+
+if resultado == 0 or resultado == 1:
+    print('Inocente')
 
 if resultado == 5:
     print('Assasino')
-    
-elif resultado == 3 or 4:
+
+if resultado == 3 or resultado == 4:
     print('Cúmplice')
 
 elif resultado == 2:
     print('Suspeito')
-
-elif resultado == 0 or 1:
-    print('Inocente')
