@@ -1,5 +1,5 @@
 
-#02) Altere o programa anterior para verificar se ao calcular a quantidade de cupons ficou
+#Altere o programa anterior para verificar se ao calcular a quantidade de cupons ficou
 #algum saldo remanescente. Caso tenha ficado, calcular e exibir:
 #● Saldo que ele possui para completar mais 1 cupom;
 #● Valor que ele deve acrescentar (gastar) para ganhar mais 1 cupom.

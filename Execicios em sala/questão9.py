@@ -1,4 +1,4 @@
-#04) Considerando que essa empresa possui exatamente 1000 (mil) cupons para serem
+#Considerando que essa empresa possui exatamente 1000 (mil) cupons para serem
 #distribuídos, altere a questão anterior para distribuir os cupons até que acabe o estoque. Ao
 #final, exibir:
 #● Quantidade de clientes que receberam todos os cupons da sua compra;
