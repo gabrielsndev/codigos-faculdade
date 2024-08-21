@@ -7,8 +7,8 @@ numeros = [0] * 30
 qt = 0
 
 for i in range(len(numeros)):
-     #numeros[i] = random.randint(0, 100)
-     numeros[i] = int(input('Digite um número: '))
+    numeros[i] = random.randint(0, 10)
+    #numeros[i] = int(input('Digite um número: '))
 
 chute = int(input('Chute: '))
 
