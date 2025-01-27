@@ -9,9 +9,9 @@ ultimo_nome = nome_split[-1]
 
 vogais = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
 
-for i in nome:
-    if i in vogais:
-        nome = nome.replace(i, '*')
+for letra in nome:
+    if letra in vogais:
+        nome = nome.replace(letra, '*')
 
 print(f'Nome formatado: {primeiro_nome} {ultimo_nome}')
 print(nome)
