@@ -7,4 +7,3 @@ def contador(frase):
             else:
                 letras[letra] = 1
     return letras
-    
