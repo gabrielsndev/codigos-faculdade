@@ -1,0 +1,9 @@
+01/01/2025;Aluno1;Aluno2;Aluno3;Aluno4;Aluno5;Aluno6
+02/01/2025;Aluno1;Aluno4;Aluno5
+02/01/2025;Aluno3;Aluno2;Aluno7
+03/01/2025;Aluno5;Aluno1;Aluno6;Aluno3;Aluno7
+04/01/2025;Aluno1;Aluno3;Aluno4;Aluno5
+05/01/2025;Aluno1;Aluno2;Aluno3;Aluno4;Aluno6
+06/01/2025;Aluno4;Aluno5;Aluno6
+07/01/2025;Aluno1;Aluno3;Aluno4;Aluno5;Aluno6
+08/01/2025;Aluno5;Aluno6
