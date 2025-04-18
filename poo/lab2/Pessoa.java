@@ -1,4 +1,5 @@
-// Crie uma classe chamada Pessoa com os seguintes atributos: nome (String), sexo (String), peso (float), altura (int – pois é em centímetros), idade (int).
+// Crie uma classe chamada Pessoa com os seguintes atributos: nome (String), sexo (String), peso (float),
+// altura (int – pois é em centímetros), idade (int).
 // Siga as convenções de nomenclatura de visibilidade vistas em sala de aulas e crie os gets e sets correspondentes.
 
 package lab2;
