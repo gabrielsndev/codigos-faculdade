@@ -16,5 +16,6 @@ public class Main {
 		
 		System.out.println("Qual a cotação atual do real? ");
 		System.out.println("A cotação atual é : " + produto.getPrecoConvertido(input.nextFloat()));
+		input.close();
 	}
 }

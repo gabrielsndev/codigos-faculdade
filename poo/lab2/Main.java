@@ -8,5 +8,6 @@ public class Main {
         Scanner input = new Scanner(System.in);
         Pessoa pessoa = new Pessoa();
         pessoa.setNome("Maylson");
+		input.close();
     }
 }

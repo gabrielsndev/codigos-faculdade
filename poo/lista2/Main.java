@@ -19,7 +19,7 @@ public class Main {
         float peso2 = input.nextFloat();
 
         System.out.println("A média ponderada é " + aluno.mediaPonderada(peso1, peso2));
-
+        input.close();
     }
 
 }
