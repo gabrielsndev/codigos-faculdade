@@ -12,7 +12,6 @@ public class Main {
 
         paciente.setPeso(Float.parseFloat(input.nextLine()));
         paciente.setAltura(Float.parseFloat(input.nextLine()));
-
         System.err.println(nutricionista.calcularImc(paciente));
         input.close();
     }
