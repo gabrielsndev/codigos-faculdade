@@ -17,11 +17,9 @@ public class Main {
         // String hexa = Integer.toHexString(num);
 
         // System.out.println(hexa);
-
         String bin  = Integer.toBinaryString(num);
 
         System.out.println(bin);
-
         input.close();
 
 
