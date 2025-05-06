@@ -27,7 +27,7 @@ public class Main {
             System.out.println("Digite o terceiro lado de um triângulo:");
             int lado3 = Integer.parseInt(input.nextLine());
 
-            Triangulo triangulo  = new Triangulo();
+            Triangulo triangulo = new Triangulo();
             TiposTriangulos tipo = triangulo.tipo(lado1, lado2, lado3);
 
             System.out.println(tipo);
