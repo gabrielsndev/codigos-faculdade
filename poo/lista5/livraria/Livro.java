@@ -1,5 +1,7 @@
 package lista5.livraria;
 
+import java.util.Objects;
+
 // . Crie a classe Livro, que possuirá como atributos: título (String),
 // ano de publicação (inteiro), quantidade disponível (inteiro) e preço (float).
 // Essa classe representará um Livro que estará disponível para venda numa livraria.
@@ -56,5 +58,19 @@ public class Livro {
             return true;
         }
         return false;
+    }
+
+
+    public String toString() {
+        return "Livro{" +
+                "titulo='" + titulo + '\'' + ", ano publicação='" + anoPublicacao + '\'' + ", preco=" + preco + ", qtdDisponivel=" + qtdDisponivel +'}';
+    }
+
+    public int hashCode() {
+        return Objects.hashCode(titulo);
+    }
+
+    public boolean equals(Livro l) {
+        return equals(l);
     }
 }
