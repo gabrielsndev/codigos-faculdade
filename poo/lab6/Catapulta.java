@@ -12,10 +12,14 @@ public class Catapulta extends Unidade {
             return true;
         }
         else if( u instanceof Cavalaria) {
-            u.receberDano();
             return false;
         }
         return false;
+    }
+
+    @Override
+    public String toString() {
+        return "Catapulta";
     }
 
 }

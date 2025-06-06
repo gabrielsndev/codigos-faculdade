@@ -8,12 +8,16 @@ public class Infantaria extends Unidade {
     @Override
     public boolean ganharQuandoAtacadoPor(Unidade u) {
         if( u instanceof Catapulta) {
-            u.receberDano();
             return false;
         }
         else if( u instanceof Cavalaria) {
             return true;
         }
         return false;
+    }
+
+    @Override
+    public String toString() {
+        return "Infantaria";
     }
 }
